@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FFADF511FDE684D00FA3F6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFADF501FDE684D00FA3F6E /* AppDelegate.swift */; };
+		1FFADF531FDE684D00FA3F6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFADF521FDE684D00FA3F6E /* ViewController.swift */; };
+		1FFADF561FDE684D00FA3F6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FFADF541FDE684D00FA3F6E /* Main.storyboard */; };
+		1FFADF581FDE684D00FA3F6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FFADF571FDE684D00FA3F6E /* Assets.xcassets */; };
+		1FFADF5B1FDE684D00FA3F6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FFADF591FDE684D00FA3F6E /* LaunchScreen.storyboard */; };
+		1FFADF661FDE684D00FA3F6E /* WBLoginManageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFADF651FDE684D00FA3F6E /* WBLoginManageTests.swift */; };
+		1FFADF711FDE684D00FA3F6E /* WBLoginManageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFADF701FDE684D00FA3F6E /* WBLoginManageUITests.swift */; };
+		1FFADF7F1FDE768E00FA3F6E /* WBCardTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFADF7E1FDE768E00FA3F6E /* WBCardTableView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FFADF621FDE684D00FA3F6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FFADF451FDE684D00FA3F6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FFADF4C1FDE684D00FA3F6E;
+			remoteInfo = WBLoginManage;
+		};
+		1FFADF6D1FDE684D00FA3F6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FFADF451FDE684D00FA3F6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FFADF4C1FDE684D00FA3F6E;
+			remoteInfo = WBLoginManage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FFADF4D1FDE684D00FA3F6E /* WBLoginManage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBLoginManage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FFADF501FDE684D00FA3F6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FFADF521FDE684D00FA3F6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FFADF551FDE684D00FA3F6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FFADF571FDE684D00FA3F6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FFADF5A1FDE684D00FA3F6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FFADF5C1FDE684D00FA3F6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FFADF611FDE684D00FA3F6E /* WBLoginManageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WBLoginManageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FFADF651FDE684D00FA3F6E /* WBLoginManageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBLoginManageTests.swift; sourceTree = "<group>"; };
+		1FFADF671FDE684D00FA3F6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FFADF6C1FDE684D00FA3F6E /* WBLoginManageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WBLoginManageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FFADF701FDE684D00FA3F6E /* WBLoginManageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBLoginManageUITests.swift; sourceTree = "<group>"; };
+		1FFADF721FDE684D00FA3F6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FFADF7E1FDE768E00FA3F6E /* WBCardTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBCardTableView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FFADF4A1FDE684D00FA3F6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FFADF5E1FDE684D00FA3F6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FFADF691FDE684D00FA3F6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FFADF441FDE684D00FA3F6E = {
+			isa = PBXGroup;
+			children = (
+				1FFADF4F1FDE684D00FA3F6E /* WBLoginManage */,
+				1FFADF641FDE684D00FA3F6E /* WBLoginManageTests */,
+				1FFADF6F1FDE684D00FA3F6E /* WBLoginManageUITests */,
+				1FFADF4E1FDE684D00FA3F6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FFADF4E1FDE684D00FA3F6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FFADF4D1FDE684D00FA3F6E /* WBLoginManage.app */,
+				1FFADF611FDE684D00FA3F6E /* WBLoginManageTests.xctest */,
+				1FFADF6C1FDE684D00FA3F6E /* WBLoginManageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FFADF4F1FDE684D00FA3F6E /* WBLoginManage */ = {
+			isa = PBXGroup;
+			children = (
+				1FFADF501FDE684D00FA3F6E /* AppDelegate.swift */,
+				1FFADF521FDE684D00FA3F6E /* ViewController.swift */,
+				1FFADF7E1FDE768E00FA3F6E /* WBCardTableView.swift */,
+				1FFADF541FDE684D00FA3F6E /* Main.storyboard */,
+				1FFADF571FDE684D00FA3F6E /* Assets.xcassets */,
+				1FFADF591FDE684D00FA3F6E /* LaunchScreen.storyboard */,
+				1FFADF5C1FDE684D00FA3F6E /* Info.plist */,
+			);
+			path = WBLoginManage;
+			sourceTree = "<group>";
+		};
+		1FFADF641FDE684D00FA3F6E /* WBLoginManageTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FFADF651FDE684D00FA3F6E /* WBLoginManageTests.swift */,
+				1FFADF671FDE684D00FA3F6E /* Info.plist */,
+			);
+			path = WBLoginManageTests;
+			sourceTree = "<group>";
+		};
+		1FFADF6F1FDE684D00FA3F6E /* WBLoginManageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FFADF701FDE684D00FA3F6E /* WBLoginManageUITests.swift */,
+				1FFADF721FDE684D00FA3F6E /* Info.plist */,
+			);
+			path = WBLoginManageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FFADF4C1FDE684D00FA3F6E /* WBLoginManage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FFADF751FDE684D00FA3F6E /* Build configuration list for PBXNativeTarget "WBLoginManage" */;
+			buildPhases = (
+				1FFADF491FDE684D00FA3F6E /* Sources */,
+				1FFADF4A1FDE684D00FA3F6E /* Frameworks */,
+				1FFADF4B1FDE684D00FA3F6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WBLoginManage;
+			productName = WBLoginManage;
+			productReference = 1FFADF4D1FDE684D00FA3F6E /* WBLoginManage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FFADF601FDE684D00FA3F6E /* WBLoginManageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FFADF781FDE684D00FA3F6E /* Build configuration list for PBXNativeTarget "WBLoginManageTests" */;
+			buildPhases = (
+				1FFADF5D1FDE684D00FA3F6E /* Sources */,
+				1FFADF5E1FDE684D00FA3F6E /* Frameworks */,
+				1FFADF5F1FDE684D00FA3F6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FFADF631FDE684D00FA3F6E /* PBXTargetDependency */,
+			);
+			name = WBLoginManageTests;
+			productName = WBLoginManageTests;
+			productReference = 1FFADF611FDE684D00FA3F6E /* WBLoginManageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FFADF6B1FDE684D00FA3F6E /* WBLoginManageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FFADF7B1FDE684D00FA3F6E /* Build configuration list for PBXNativeTarget "WBLoginManageUITests" */;
+			buildPhases = (
+				1FFADF681FDE684D00FA3F6E /* Sources */,
+				1FFADF691FDE684D00FA3F6E /* Frameworks */,
+				1FFADF6A1FDE684D00FA3F6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FFADF6E1FDE684D00FA3F6E /* PBXTargetDependency */,
+			);
+			name = WBLoginManageUITests;
+			productName = WBLoginManageUITests;
+			productReference = 1FFADF6C1FDE684D00FA3F6E /* WBLoginManageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FFADF451FDE684D00FA3F6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "wisnuc-imac";
+				TargetAttributes = {
+					1FFADF4C1FDE684D00FA3F6E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					1FFADF601FDE684D00FA3F6E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1FFADF4C1FDE684D00FA3F6E;
+					};
+					1FFADF6B1FDE684D00FA3F6E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1FFADF4C1FDE684D00FA3F6E;
+					};
+				};
+			};
+			buildConfigurationList = 1FFADF481FDE684D00FA3F6E /* Build configuration list for PBXProject "WBLoginManage" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FFADF441FDE684D00FA3F6E;
+			productRefGroup = 1FFADF4E1FDE684D00FA3F6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FFADF4C1FDE684D00FA3F6E /* WBLoginManage */,
+				1FFADF601FDE684D00FA3F6E /* WBLoginManageTests */,
+				1FFADF6B1FDE684D00FA3F6E /* WBLoginManageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FFADF4B1FDE684D00FA3F6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FFADF5B1FDE684D00FA3F6E /* LaunchScreen.storyboard in Resources */,
+				1FFADF581FDE684D00FA3F6E /* Assets.xcassets in Resources */,
+				1FFADF561FDE684D00FA3F6E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FFADF5F1FDE684D00FA3F6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FFADF6A1FDE684D00FA3F6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FFADF491FDE684D00FA3F6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FFADF531FDE684D00FA3F6E /* ViewController.swift in Sources */,
+				1FFADF511FDE684D00FA3F6E /* AppDelegate.swift in Sources */,
+				1FFADF7F1FDE768E00FA3F6E /* WBCardTableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FFADF5D1FDE684D00FA3F6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FFADF661FDE684D00FA3F6E /* WBLoginManageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FFADF681FDE684D00FA3F6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FFADF711FDE684D00FA3F6E /* WBLoginManageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FFADF631FDE684D00FA3F6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FFADF4C1FDE684D00FA3F6E /* WBLoginManage */;
+			targetProxy = 1FFADF621FDE684D00FA3F6E /* PBXContainerItemProxy */;
+		};
+		1FFADF6E1FDE684D00FA3F6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FFADF4C1FDE684D00FA3F6E /* WBLoginManage */;
+			targetProxy = 1FFADF6D1FDE684D00FA3F6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FFADF541FDE684D00FA3F6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FFADF551FDE684D00FA3F6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FFADF591FDE684D00FA3F6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FFADF5A1FDE684D00FA3F6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FFADF731FDE684D00FA3F6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FFADF741FDE684D00FA3F6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FFADF761FDE684D00FA3F6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SC32MU7TG;
+				INFOPLIST_FILE = WBLoginManage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wisnuc.WBLoginManage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FFADF771FDE684D00FA3F6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SC32MU7TG;
+				INFOPLIST_FILE = WBLoginManage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wisnuc.WBLoginManage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1FFADF791FDE684D00FA3F6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SC32MU7TG;
+				INFOPLIST_FILE = WBLoginManageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wisnuc.WBLoginManageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WBLoginManage.app/WBLoginManage";
+			};
+			name = Debug;
+		};
+		1FFADF7A1FDE684D00FA3F6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SC32MU7TG;
+				INFOPLIST_FILE = WBLoginManageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wisnuc.WBLoginManageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WBLoginManage.app/WBLoginManage";
+			};
+			name = Release;
+		};
+		1FFADF7C1FDE684D00FA3F6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SC32MU7TG;
+				INFOPLIST_FILE = WBLoginManageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wisnuc.WBLoginManageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WBLoginManage;
+			};
+			name = Debug;
+		};
+		1FFADF7D1FDE684D00FA3F6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SC32MU7TG;
+				INFOPLIST_FILE = WBLoginManageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wisnuc.WBLoginManageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WBLoginManage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FFADF481FDE684D00FA3F6E /* Build configuration list for PBXProject "WBLoginManage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FFADF731FDE684D00FA3F6E /* Debug */,
+				1FFADF741FDE684D00FA3F6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FFADF751FDE684D00FA3F6E /* Build configuration list for PBXNativeTarget "WBLoginManage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FFADF761FDE684D00FA3F6E /* Debug */,
+				1FFADF771FDE684D00FA3F6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FFADF781FDE684D00FA3F6E /* Build configuration list for PBXNativeTarget "WBLoginManageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FFADF791FDE684D00FA3F6E /* Debug */,
+				1FFADF7A1FDE684D00FA3F6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FFADF7B1FDE684D00FA3F6E /* Build configuration list for PBXNativeTarget "WBLoginManageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FFADF7C1FDE684D00FA3F6E /* Debug */,
+				1FFADF7D1FDE684D00FA3F6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FFADF451FDE684D00FA3F6E /* Project object */;
+}
